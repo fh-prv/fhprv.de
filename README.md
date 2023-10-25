@@ -1,14 +1,25 @@
----
-name: HTML Starter
-slug: html-starter-with-analytics
-description: HTML5 template with analytics and advanced routing configuration.
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html
-relatedTemplates:
-  - nextjs-boilerplate
----
+<img height=64 src="https://fhprv.de/img/fh.prv%20-%20Raw%20Full.png" style="display:block; margin-left: auto; margin-right: auto;" width=64/><br>
+# fh.prv - Homepage
+https://fhprv.de/
 
-# HTML Starter
+## Acknowledgments
+- [Next.js](https://nextjs.org) - The React Framework for Production
+- [MUI](https://mui.com) - React components for faster and easier web development
+- [React](https://reactjs.org) - A JavaScript library for building user interfaces
 
-This is a starter HTML5 templates which is configured with Vercel Analytics (through a `script` tag), advanced routing with [Vercel Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), as well as some basic styles
+## Getting Started
+To get started, clone the repository and run `npm install` and `npm run dev`.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
+```
+/
+├── /app
+│   ├── All the page files
+├── /components
+│   ├── All the components
+└── /public
+    └── All the static files
+```
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+You can use this project for free. If you like it, please star it 🌟.

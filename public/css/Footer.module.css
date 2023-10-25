@@ -1,0 +1,35 @@
+.copyright {
+    float: left;
+}
+
+.elements {
+    padding: 5px;
+}
+
+.footer {
+    bottom: 0;
+    display: block;
+    font-family: 'SourceCodePro';
+    font-size: small;
+    height: min-content;
+    max-height: 5%;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.legal {
+    float: right;
+}
+
+.text {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.text:hover {
+    color: #51f34d;
+    text-decoration: underline;
+    transition: 0.3s;
+}

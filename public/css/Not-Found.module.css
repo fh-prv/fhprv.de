@@ -1,0 +1,36 @@
+@keyframes blink {
+    0% {
+        color: #51f34d;
+    }
+    33% {
+        color: #38A736;
+    }
+    66% {
+        color: #1e5b1f;
+    }
+    100% {
+        color: #51f34d;
+    }
+}
+
+.code {
+    color: #ffffff;
+    display: block;
+    font-family: 'RobotoMono';
+    font-size: 1000%;
+}
+
+.code a {
+    animation: blink 1s infinite;
+    color: #51f34d;
+}
+
+.error {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}

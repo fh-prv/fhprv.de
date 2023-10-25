@@ -1,0 +1,32 @@
+.navbar {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.elements {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.link {
+    display: inline;
+    margin: 30px
+}
+
+.number {
+    color: #51f34d;
+}
+
+.text {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.text:hover {
+    color: #51f34d;
+    text-decoration: underline;
+    transition: 0.3s;
+}

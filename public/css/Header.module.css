@@ -1,0 +1,8 @@
+.header {
+    display: block;
+    font-family: 'SourceCodePro';
+    height: 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../font/RobotoMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('../font/SourceCodePro-Regular.ttf')
+}
+
+:root {
+    color: #ffffff;
+    margin: 0;
+    -webkit-user-select: none;
+    user-select: none;
+}
+  
+body {
+    background-color: #080b0f;
+    display: block;
+    font-family: 'SourceCodePro';
+    height: 90%;
+    margin: 0;
+    position: fixed;
+    top: 5%;
+    text-decoration: none;
+    width: 100%;
+}

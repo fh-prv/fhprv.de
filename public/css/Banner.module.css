@@ -1,0 +1,20 @@
+@keyframes blink {
+    0% {
+        color: #51f34d;
+    }
+    33% {
+        color: #38A736;
+    }
+    66% {
+        color: #1e5b1f;
+    }
+    100% {
+        color: #51f34d;
+    }
+}
+
+.banner {
+    height: min-content;
+    text-align: center;
+    width: 100%;
+}
