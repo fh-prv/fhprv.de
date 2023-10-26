@@ -1,4 +1,4 @@
-<img height=64 src="https://fhprv.de/img/fh.prv%20-%20Raw%20Full.png" style="display:block; margin-left: auto; margin-right: auto;" width=64/><br>
+<img height=64 src="https://fhprv.de/img/fh.prv.png" style="display:block; margin-left: auto; margin-right: auto;" width=64/><br>
 # fh.prv - Homepage
 https://fhprv.de/
 
