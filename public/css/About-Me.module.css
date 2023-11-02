@@ -1,0 +1,49 @@
+.aboutMe {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.code {
+    color: #51f34d;
+}
+
+.content {
+    display: block;
+}
+
+.headline {
+    color: #ffffff;
+    display: block;
+    font-family: 'RobotoMono';
+    font-size: 600%;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: #51f34d;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'SourceCodePro';
+    font-size: 100%;
+    line-height: 200%;
+}

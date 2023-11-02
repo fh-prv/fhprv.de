@@ -1,10 +1,10 @@
 import '../public/css/Global.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Source_Code_Pro } from 'next/font/google';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
-const inter = Inter({ subsets: ['latin'] });
+const sourceCodePro = Source_Code_Pro({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   authors: { name: 'fh.prv', url: 'mailto:info@fhprv.de' },
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   },
   publisher: 'fh.prv',
   title: 'fh.prv - Homepage',
+  viewport: 'width=device-width, initial-scale=0.1',
 };
 
 export default function RootLayout({
@@ -24,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-		<body className={inter.className}>
+		<body className={sourceCodePro.className}>
 			<Header/>
 			{children}
 			<Footer/>
